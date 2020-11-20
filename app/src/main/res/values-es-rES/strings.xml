@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartAlert</string>
+
+    <string name="Login">iniciar sesión</string>
+    <string name="Email">correo</string>
+    <string name="Password">contraseña</string>
+    <string name="Loginbtn">iniciar sesión</string>
+    <string name="CreateAccount">crear una cuenta</string>
+    <string name="ForgotPass">Se te olvidó tu contraseña</string>
+    <string name="changeLang">Cambiar idioma</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="132dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="176dp" />
+
+    <TextView
+        android:id="@+id/text_y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="26dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_x"
+        android:layout_marginLeft="176dp" />
+
+    <TextView
+        android:id="@+id/text_z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="26dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_y"
+        android:layout_marginLeft="176dp" />
+
+    <Button
+        android:id="@+id/abortBtn"
+        android:layout_width="131dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="84dp"
+        android:onClick="AbortBtn"
+        android:text="Abort !!!"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timerTxt"
+        android:layout_marginLeft="140dp" />
+
+    <TextView
+        android:id="@+id/timerTxt"
+        android:layout_width="133dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="88dp"
+        android:text="30'"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_z"
+        android:layout_marginLeft="140dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/fireBtn"
+        android:layout_width="97dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="124dp"
+        android:background="#CA1414"
+        android:text="FIRE"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="32dp" />
+
+    <TextView
+        android:id="@+id/textViewGreeting"
+        android:layout_width="293dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="59dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

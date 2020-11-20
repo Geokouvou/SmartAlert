@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartAlert</string>
+
+    <string name="Login">ログインする</string>
+    <string name="Email">郵便物</string>
+    <string name="Password">パスワード</string>
+    <string name="Loginbtn">ログインする</string>
+    <string name="CreateAccount">アカウントを作成する</string>
+    <string name="ForgotPass">パスワードをお忘れですか</string>
+    <string name="changeLang">言語を変えてください</string>
+</resources>

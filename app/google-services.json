@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "159322579840",
+    "firebase_url": "https://smartalert-fa674.firebaseio.com",
+    "project_id": "smartalert-fa674",
+    "storage_bucket": "smartalert-fa674.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159322579840:android:40f917a4007891d42c1765",
+        "android_client_info": {
+          "package_name": "com.protal.smartalert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159322579840-qsa72d7ve42ditkia6cmkr4q35hv8tr3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.protal.smartalert",
+            "certificate_hash": "f33c0321f6dba78f9181514539c945dbb2b5dcf2"
+          }
+        },
+        {
+          "client_id": "159322579840-hco1lsgq65jv3clnu3h7ou3md0k2qsjv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMZbOlA3wCO4tayTlNgFlrzrV0EusrpA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159322579840-hco1lsgq65jv3clnu3h7ou3md0k2qsjv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
